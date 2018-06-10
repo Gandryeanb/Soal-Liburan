@@ -2,7 +2,6 @@ function soal3(param)
 {
     var result = { }
     var propetiesName = []
-    var propetiesValue = []
     param.sort();
 
     for ( var i = 0; i < param.length ; i++) {
