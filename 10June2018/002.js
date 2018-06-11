@@ -11,10 +11,8 @@ function soal2(param)
         result[i].push("Instruktur")
       } else {
         result.push([param[i]])
-        for ( var j = 0; j < 1; j++) {
-          result[i].push(param[secondPusher])
-          secondPusher--
-        }
+        result[i].push(param[secondPusher])
+        secondPusher--
       }
     }
     return result
