@@ -12,22 +12,33 @@
       SET and STORE `num` with 0
 
       IF param EQUALS to 0 THEN
+
         RETURN "invalid input" 
+
       ELSE
+
         FOR `i`to value of param
+      
           FOR `j` to value of param
+      
             IF `num` EQUALS to 26 THEN
               `num` EQUALS to 0
-            ELSE 
-              add `alpha` index of `num` to `subResult`
-              num increment by 1
             END IF
+            
+            add `alpha` index of `num` to `subResult`
+            num increment by 1
+          
           END FOR
+          
           add `subResult` to `result`
           `subResult` EQUALS to empty array
+        
         END FOR
+      
       END IF
+      
       RETURN `result`
+    
     END FUNCTION soal2
     
 */
@@ -46,10 +57,9 @@ function soal2(param)
       for (var j = 0; j < param; j++) {
         if (num === 26) {
           num = 0
-        } else {
-          subResult.push(aplha[num])
-          num++
-          }
+        }
+        subResult.push(aplha[num])
+        num++
       }
       result.push(subResult)
       subResult = []
