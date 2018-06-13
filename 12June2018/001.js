@@ -1,14 +1,12 @@
+
 function soal1(param)
 {
     var result = [] 
 
     for (var i = param.length-1 ; i >= 0; i--) {
-      if (param[i] !== " ") {
-        console.log(param[i])
-      }
+      console.log(param[i])
     }
 }
-
 console.log(soal1("Aries Dimas Yudhistira"));
 /*
     a
