@@ -8,4 +8,4 @@
   
   ### Non-urgent Content
   - randomQuiz = [[001.js](https://github.com/Gandryeanb/Soal-Liburan/blob/master/randomQuiz/001.js)][[002.js](https://github.com/Gandryeanb/Soal-Liburan/blob/master/randomQuiz/002.js)]
-# Soal-Liburan
+# 
