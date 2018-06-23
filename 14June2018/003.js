@@ -18,6 +18,7 @@ function soal3(param1)
         }
         result.push(swap)
         swap = []
+        generator = []
       } else {
         result.push(generator)
         generator = []
