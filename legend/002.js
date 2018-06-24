@@ -51,7 +51,7 @@
     looping untuk LOOP KEDUA serta pengurangan input dengan 2
 
        [y,x]                      [y,x]
-       [0,0]                      [0,0]
+       [0,0]                      [1,1]
     [
      [*,2,3,4],                 [1,2,3,4],
      [12,0,0,5],                [12,*,0,5],
