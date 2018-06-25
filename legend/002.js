@@ -59,7 +59,7 @@
      [10,9,8,7]                 [10,9,8,7],
    ]   
        input                      input
-         5                          2
+         4                          2
 
   - perulangan melakukan perulangan sebanyak Math.ceil(input/2)
   - terakhir adalah membuat pergantian angka untuk input ganjil
